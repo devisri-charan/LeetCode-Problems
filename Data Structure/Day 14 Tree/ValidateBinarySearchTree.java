@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class ValidateBinarySearchTree{
     static class TreeNode {
         int val;
@@ -24,6 +26,22 @@ public class ValidateBinarySearchTree{
     }
 
     public static boolean isValidBST(TreeNode root) {
+        ArrayList<Integer> list = new ArrayList<>();
+        inOrder(list, root);
+        for (int i = 0; i < list.size() - 1; i++) {
+            if (list.get(i) >= list.get(i+1)){
+                return false;
+            }
+        }
         return true;
+    }
+
+    public static void inOrder(ArrayList<Integer> list, TreeNode root){
+        if (root == null){
+            return;
+        }
+        inOrder(list, root.left);
+        list.add(root.val);
+        inOrder(list, root.right);
     }
 }
