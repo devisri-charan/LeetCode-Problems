@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class ValidateBinarySearchTree{
     static class TreeNode {
@@ -35,7 +36,7 @@ public class ValidateBinarySearchTree{
         }
         return true;
     }
-
+    
     public static void inOrder(ArrayList<Integer> list, TreeNode root){
         if (root == null){
             return;
@@ -43,5 +44,23 @@ public class ValidateBinarySearchTree{
         inOrder(list, root.left);
         list.add(root.val);
         inOrder(list, root.right);
+    }
+
+    public static boolean isValidBST1(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode prev = null;
+        while (root != null || !stack.isEmpty()){
+            while (root != null){
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            if (prev != null && root.val <= prev.val){
+                return false;
+            }
+            prev = root;
+            root = root.right;
+        }
+        return true;
     }
 }
