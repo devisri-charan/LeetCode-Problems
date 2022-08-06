@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class FindAllAnagramsInAString{
@@ -12,18 +11,41 @@ public class FindAllAnagramsInAString{
 
     public static List<Integer> findAnagrams(String s, String p) {
         List<Integer> startingIndices = new ArrayList<>();
-        int i = 0;
-        while (i <= s.length() - p.length()) {
-            String subString = s.substring(i, i+p.length());
-            if (isAnagram(subString,p)){
-                startingIndices.add(i);
+
+        int S = s.length();
+        int P = p.length();
+
+        int[] frequencyP = frequency(p);
+        int[] frequencySubString = frequency(s.substring(0, P));
+
+        if (isAnagram(frequencySubString, frequencyP)){
+            startingIndices.add(0);
+        }
+
+        for (int i = P; i < S; i++) {
+            frequencySubString[s.charAt(i) - 'a']++;    
+            frequencySubString[s.charAt(i - P) - 'a']--;    
+            if (isAnagram(frequencySubString, frequencyP)){
+                startingIndices.add(i - P +1);
             }
-            i+=1;
         }
         return startingIndices;
     }
 
-    private static boolean isAnagram(String subString, String p) {
+    public static boolean isAnagram(int[] frequencySubString, int[] frequencyP) {
+        for (int i = 0; i < 26; i++) {
+            if (frequencySubString[i] != frequencyP[i]){
+                return false;
+            }
+        }
         return true;
+    }
+
+    public static int[] frequency(String s){
+        int[] freqString = new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            freqString[s.charAt(i) - 'a']++;
+        }
+        return freqString;
     }
 }

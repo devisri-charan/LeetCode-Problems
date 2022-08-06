@@ -1,6 +1,4 @@
-import java.util.Arrays;
-
-public class NumberOfIslands_ {
+public class NumberOfIslands {
     public static void main(String[] args) {
         char[][] grid = {
                         {'1','1','1','1','0'},
