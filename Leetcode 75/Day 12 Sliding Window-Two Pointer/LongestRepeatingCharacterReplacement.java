@@ -2,7 +2,10 @@ public class LongestRepeatingCharacterReplacement {
     public static void main(String[] args) {
         String s = "ABAB";
         int k = 2;
+        String s1 = "AABABBA";
+        int k1 = 1;
         System.out.println(characterReplacement(s, k));
+        System.out.println(characterReplacement(s1, k1));
     }
 
     public static int characterReplacement(String s, int k) {
