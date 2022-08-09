@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class MergeSortedArrays {
     public static void main(String[] args) {
         int[] nums1 = {1,2,3,0,0,0};
@@ -24,10 +23,10 @@ public class MergeSortedArrays {
             }
         }
 
-        // while(i >= 0){
-        //     nums1[i] = nums1[i];
-        //     i--;
-        // }
+        while(i >= 0){
+            nums1[i] = nums1[i];
+            i--;
+        }
 
         while (j >=0){
             nums1[i] = nums2[j];
