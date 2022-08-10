@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 
 public class WordSubsets {
@@ -20,12 +19,7 @@ public class WordSubsets {
     }
 
     public static boolean isUniversal(String word1, String[] words2) {
-        // HashSet<Character> hashSet = new HashSet<>();
-        // for (char word1Char : word1.toCharArray()) {
-        //     hashSet.add(word1Char);
-        // }
         for (String word2 : words2) {
-            // char word2Char = word2.charAt(0);
             if (!word2.matches(word1)){
                 return false;
             }
