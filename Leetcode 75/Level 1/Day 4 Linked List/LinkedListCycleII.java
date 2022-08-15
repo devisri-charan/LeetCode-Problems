@@ -42,6 +42,25 @@ public class LinkedListCycleII {
         return null;
     }
 
+    public static ListNode detectCycle1(ListNode head) {
+        ListNode slow_ptr = head;
+        ListNode fast_ptr = head;
+
+        while (fast_ptr!= null && fast_ptr.next!= null){
+            fast_ptr = fast_ptr.next.next;
+            slow_ptr = slow_ptr.next;
+            if (slow_ptr == fast_ptr){
+                slow_ptr = head;
+                while (slow_ptr != fast_ptr){
+                    slow_ptr = slow_ptr.next;
+                    fast_ptr = fast_ptr.next;
+                }
+                return slow_ptr;
+            }
+        }
+        return null;
+    }
+
     public static void main(String[] args) {
         ListNode head = newNode(5);
         head.next = newNode(10);
