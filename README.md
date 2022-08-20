@@ -7,15 +7,15 @@ My Profile Link: <a href="https://www.leetcode.com/devisri-charan" target="blank
 
 <div style="display: flex; align-items: flex-start;">
     <div style="display: inline-block;padding:1rem; text-align="center">
-        <a href="https://www.leetcode.com/devisricharan2020412" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88871184/182921617-83d114a6-48bf-4aa6-b180-c7706f97598a.png" alt="devisricharan2020412" height="100" width="100" /></a>
+        <a href="https://www.leetcode.com/devisri-charan" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88871184/185757952-ca8450f6-83e9-4a04-a13c-511cbb0b3d00.png" alt="devisri-charan" height="100" width="100" /></a>
         <p>Data Structure Level 1</p>
     </div>
     <div style="display: inline-block;padding:1rem; text-align="center">
-        <a href="https://www.leetcode.com/devisricharan2020412" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88871184/183263799-3a9dcd87-db33-4404-966c-c3e1802d54f1.png" alt="devisricharan2020412" height="100" width="100" /></a>
+        <a href="https://www.leetcode.com/devisri-charan" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88871184/183263799-3a9dcd87-db33-4404-966c-c3e1802d54f1.png" alt="devisri-charan" height="100" width="100" /></a>
         <p>LeetCode 75 Level 1</p>
     </div>
     <div style="display: inline-block;padding:1rem; text-align="center">
-        <a href="https://www.leetcode.com/devisricharan2020412" target="blank"><img align="center" src="https://assets.leetcode.com/static_assets/others/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE_%E5%85%A5%E9%97%A8.gif alt="devisricharan2020412" height="100" width="100" /></a>
+        <a href="https://www.leetcode.com/devisri-charan" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88871184/185757888-c2310ec4-02d6-4432-ae81-835fd62c6c87.png" alt="devisri-charan" height="100" width="100" /></a>
         <p>Binary Search Level 1</p>
     </div>
 </div>
