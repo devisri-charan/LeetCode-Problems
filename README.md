@@ -14,4 +14,8 @@ My Profile Link: <a href="https://www.leetcode.com/devisri-charan" target="blank
         <a href="https://www.leetcode.com/devisricharan2020412" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88871184/183263799-3a9dcd87-db33-4404-966c-c3e1802d54f1.png" alt="devisricharan2020412" height="100" width="100" /></a>
         <p>LeetCode 75 Level 1</p>
     </div>
+    <div style="display: inline-block;padding:1rem; text-align="center">
+        <a href="https://www.leetcode.com/devisricharan2020412" target="blank"><img align="center" src="https://assets.leetcode.com/static_assets/others/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE_%E5%85%A5%E9%97%A8.gif alt="devisricharan2020412" height="100" width="100" /></a>
+        <p>Binary Search Level 1</p>
+    </div>
 </div>
