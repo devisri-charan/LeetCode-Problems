@@ -9,9 +9,7 @@ public class NumberOf1Bits{
         int x = 0;
 
         while (x > 32){
-            if ((n & 1) == 1){
-                count++;
-            }
+            count+=(n & 1);
             n = n>>1;
             x++;
         }
