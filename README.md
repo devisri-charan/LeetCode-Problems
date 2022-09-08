@@ -17,4 +17,7 @@ My Profile Link: <a href="https://www.leetcode.com/devisri-charan" target="blank
 </div><div style="display: inline-block;padding:1rem; text-align="center">
     <a href="https://www.leetcode.com/devisri-charan" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88871184/186361346-db056a84-b1d0-4b79-915c-ea393d746ca5.png" alt="devisri-charan" height="100" width="100" /></a>
     <p>Algorithm Level 1</p>
+</div><div style="display: inline-block;padding:1rem; text-align="center">
+    <a href="https://www.leetcode.com/devisri-charan" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88871184/189219682-351e0c7a-e1c5-459f-8f82-554f2652ff66.png" alt="devisri-charan" height="100" width="100" /></a>
+    <p>Programming Skills Level 1</p>
 </div>
